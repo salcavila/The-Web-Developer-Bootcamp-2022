@@ -1,0 +1,39 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid blueviolet;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: crimson;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 0px;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+#fixed #middle {
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+
+#sticky #middle {
+    position: sticky;
+    top: 20px;
+}
